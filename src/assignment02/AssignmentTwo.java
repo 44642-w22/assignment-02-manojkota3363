@@ -15,7 +15,16 @@ public class AssignmentTwo {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
-		AssignmentDevelopment obj=new AssignmentDevelopment();
+		Problem01 obj1=new Problem01();
+		Problem02 obj2=new Problem02();
+		Problem03 obj3=new Problem03();
+		Problem04 obj4=new Problem04();
+		Problem05 obj5=new Problem05();
+		Problem06 obj6=new Problem06();
+
+
+
+
 	Scanner sc=new Scanner(System.in);
 	 System.out.println("Problem -1");
 	 System.out.print("Enter size of String:- ");
@@ -31,7 +40,7 @@ public class AssignmentTwo {
 
 		}
 
-obj.Problem1(t);
+obj1.Problem1(t);
 System.out.println();
 System.out.println("Problem -2");
 
@@ -48,7 +57,7 @@ for (int i = 0; i < n1; i++) {
 
 }
 
-System.out.println(obj.Problem2(a));
+System.out.println("Output (M1):"+obj2.Problem2(a));
 System.out.println("Problem -3");
 System.out.print("Enter size of integer array:");
 int n31 = sc.nextInt();
@@ -67,7 +76,7 @@ c[2]=43;
 c[3]=55;
 c[4]=5;
 c[5]=10;*/
-System.out.println(obj.Problem3(a31));
+System.out.println("Output (S):"+obj3.Problem3(a31));
 System.out.println("Problem -4");
 System.out.println("Enter size of array");
 int g=sc.nextInt();
@@ -77,7 +86,9 @@ for(int i=0;i<g;i++) {
 
 a1.add(sc.next());
 }
-System.out.println(obj.Problem4(a1));
+System.out.println("Input (A1): "+a1);
+
+System.out.println("Output (A2):"+obj4.Problem4(a1));
 System.out.println("Problem -5");
 System.out.println("Enter size of arrayList");
 
@@ -92,7 +103,9 @@ a2.add(sc.next());
 /*a2.add("patterns");
 a2.add("frameworks");
 a2.add("manoj");*/
-System.out.println(obj.Problem5(a2));
+System.out.println("Input: "+a2);
+
+System.out.println("Output:"+obj5.Problem5(a2));
 System.out.println("Problem -6");
 
 System.out.print("Enter size of String:- ");
@@ -106,7 +119,7 @@ for (int i = 0; i < n7; i++) {
 	a6.add(ele);
 
 }
-System.out.println(obj.Problem6(a6));
+System.out.println("Output (M1): "+obj6.Problem6(a6));
 
 }
 
