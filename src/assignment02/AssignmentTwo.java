@@ -8,11 +8,7 @@ import java.util.LinkedHashSet;
 import java.util.Map;
 import java.util.Scanner;
 import java.util.Set;
-/**
- * 
- * @author Manoj Kota
- *
- */
+
 
 public class AssignmentTwo {
 
@@ -22,7 +18,9 @@ public class AssignmentTwo {
 
 
 	Scanner sc=new Scanner(System.in);
-	 System.out.println("Problem -1");
+
+	/// added files
+	 
 	 System.out.print("Enter size of String Array:- ");
 		int n = sc.nextInt();
 		String[] t = new String[n];
